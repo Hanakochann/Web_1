@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	display: flex;
+	flex-flow: column wrap;
+	background-color: blue;
+}
+.part1{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.part2{
+	display: flex;
+	justify-content: center;
+}
+img{
+	width: 470px;
+	height: 470px;
+}
+.part3{
+	display: flex;
+	justify-content: flex-start;
+}
+.boder{
+	display: flex;
+	justify-content: space-between;	
+}
+ul{
+	display: flex;
+	flex-grow: 1;
+	margin: 0;
+	padding: 0;	
+}
+li{
+	display: flex;
+	flex-grow: 1;
+	border-width: 0px;
+    border-style: solid;
+    border-right-width: 0;
+	background-color: black;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+}
+
